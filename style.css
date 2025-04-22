@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+body{
+    background-image:url(/assets/top-view-delicious-food-table\ 1.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+a{
+    font-weight: 110;
+    color: #ffffff;
+    text-decoration: none;
+}
+.header-nav{
+    list-style-type: none;
+    font-family: Tekko;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 3rem;
+}
+.navbar{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 150px;
+}
+main{
+    padding: 2rem 5rem;
+    width: 630px;
+    height: 488px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.texto-principal{
+    font-weight: 300;
+    font-size: 100px;
+    font-family: Inter;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+.local{
+    color: #ccc;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5px;
+}
