@@ -89,15 +89,80 @@ main{
     border-radius: 25px;
     padding: 2px;
 }
+.Comidas{
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: absolute;
+    color: rgb(255,99,71);
+    font-size: 100px;
+}
 .produtos{
-    font-size: 15px;
+    margin-top: 15rem;
     display: flex;
     flex-direction: row;
+    width: 95vh;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid;
-    border-radius: 50px
+    border: 1px;
+    border-radius: 30px;
 }
-.img-produto{
-    width: 70px;
+.produto-1{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.descricao-1{
+    color: rgb(255,99,71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.preco-comida{
+    font-family: inter;
+    font-size: 25px;
+    font-weight: 500;
+    color:  rgb(60, 179, 113);
+}
+.button-comida{
+    
+    border-radius: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: aquamarine;
+}
+.button-comida:hover{
+    cursor: pointer;
+    background-color: green;
+    width: 6rem;
+    height: 3rem;
+    transition: 0.5s;
+}
+.bebidas-img{
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rodape{
+    padding: 3rem auto;
+    background-color: black;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+    font-size: 50px;
+    color: #ccc;
+    border-radius: 25px;
+}
+.aval-roodape{
+    color:  rgb(255,99,71) ;
 }
